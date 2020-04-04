@@ -1,0 +1,36 @@
+## Database Settings
+##spring:
+##  datasource:
+##    url: jdbc:h2:mem:testdb;MODE=mysql;
+##    platform: h2
+##    username: sa
+##    password:
+##    driverClassName: org.h2.Driver
+#
+#
+##spring:
+##  datasource:
+##    url: jdbc:h2:file:~/data/h2/testdb;MODE=MySQL
+##    platform: h2
+##    username: sa
+##    password:
+##    driverClassName: org.h2.Driver
+##  jpa:
+##    hibernate:
+##      ddl-auto: update
+##    generate-ddl: false
+##    show-sql: true
+#
+#
+#spring:
+#  profiles: real-db
+#  datasource:
+#    url: jdbc:mariadb://127.0.0.1/kb_schema
+#    username: us_a
+#    password: us_a
+#    driver-class-name: org.mariadb.jdbc.Driver
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    generate-ddl: false
+#    show-sql: true
